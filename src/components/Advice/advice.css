@@ -1,0 +1,56 @@
+body {
+    background-color: #262634;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.advice-id {
+    font-size: small;
+    color: #00e6ac;
+}
+
+.advice {
+    color: aliceblue; 
+    font-size: large;
+}
+
+.advice-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 20%;
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);;
+    background-color: #73737C;
+    border-radius: 10px;
+    box-shadow: 0 0 15px #73737C;
+}
+
+.generate-button {
+    background-color: #00e6ac;
+    border: none;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+    align-items: center;
+    box-shadow: 0 0 15px #00e6ac;
+    margin: 0;
+    position: relative;
+    top: 30px;
+}
+
+.generate-button:hover {
+    box-shadow: 0 0 15px #00e6ac;
+}
+
+.generate-button:active {
+    border: none;
+}
+
+.advice-block__img {
+    width: 75%;
+}
